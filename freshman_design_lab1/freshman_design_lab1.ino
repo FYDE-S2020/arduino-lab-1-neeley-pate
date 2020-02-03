@@ -91,11 +91,8 @@ void timedBlink(int interval){
 }
 */
 
-
 // the loop function runs over and over again forever
 
 void loop() {
-
   timedBlink(2);
-
 }

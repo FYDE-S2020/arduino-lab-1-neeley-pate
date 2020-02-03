@@ -1,6 +1,6 @@
-Name:
+Name: Neeley Pate
 
-EID:
+EID: nap2552
 
 Team Number:
 
@@ -8,55 +8,61 @@ Team Number:
 
 1. Why does your program need a setup and a loop?
 
-    your answer here
+	setup: happens once, sets initial variables and input / output
+	loop: holds the actual code that's being run on the board / processor
 
 2. What is the downside to putting all your code in a loop?
 
-    your answer here
+    one downside is the program will constantly loop, which must be accounted for when writing code
 
 3. Why does your code need to be compiled?
 
-    your answer here
+    it takes the code that's written, checks it, and puts it into a language that the board / processor can understand (assmebly)
 
 4. When lowering the frequency in procedure A, step 4, what is going wrong? Brainstorm some solutions. Dimmers exist in the real world. What is their solution?
 
-    your answer here
+    
 
 5. Why do you need to connect the logic analyzer ground to the ESP32 ground?
 
-    your answer here
+    it completes the circuit and allows the information to pass through the logic analyzer
 
 6. What is the difference between synchronous and asynchronous communication?
 
-    your answer here
+    synchronous: run at the same pace
+	asynchronous: run at different speeds
 
 7. Profile of UART: Sent X bytes in Y time 
 
-    your answer here
+    
 
 8. Profile of SPI: Sent X bytes in Y time
 
-    your answer here
+    
 
 9. Why is SPI so much faster than UART?
 
-    your answer here
+    SPI: uses strong drive mode to drive the bus
+	UART: uses push pull (has to rely on outside devices)
 
 10. list one pro and one con of UART
 
-    your answer here
+    pro: only needs two wires for data communication
+	con: can't hold several slave or master systems
 
 11. list one pro and one con of SPI
 
-    your answer here
+    pro: very fast, synchronous
+	con: requires more wires to connect than UART or I2C
 
 12. list one pro and one con of I2C
 
-    your answer here
+    pro: only requires two pins to support multiple slaves
+	con: lines are open drain --> require a pull up or pull down resistor
 
 13. Why does I2C need external resistors to work?
 
-    your answer here
+    resistors are used to provide default states for signal line or GPIO pins
 
 ## Screenshots
 
