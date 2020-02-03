@@ -68,6 +68,28 @@ void timedBlink(int interval){
   delay(delay_val);                       // wait for a second
 
   delay_val = delay_val * interval;
+
+  digitalWrite(LED_PIN, HIGH);   // turn the LED on (HIGH is the voltage level)
+
+  delay(delay_val);                       // wait for a second
+
+  digitalWrite(LED_PIN, LOW);    // turn the LED off by making the voltage LOW
+
+  delay(delay_val);                       // wait for a second
+
+  delay_val = delay_val * interval;
+
+  digitalWrite(LED_PIN, HIGH);   // turn the LED on (HIGH is the voltage level)
+
+  delay(delay_val);                       // wait for a second
+
+  digitalWrite(LED_PIN, LOW);    // turn the LED off by making the voltage LOW
+
+  delay(delay_val);                       // wait for a second
+
+  delay_val = delay_val * interval;
+
+  delay_val = 250;
 }
 
 /*void dimmer(int freq, int duty) {
