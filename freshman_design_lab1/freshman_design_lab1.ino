@@ -45,7 +45,7 @@
 */
 
 #define LED_PIN 2
-
+int delay_val = 250;
 
 
 // the setup function runs once when you press reset or power the board
@@ -58,14 +58,16 @@ void setup() {
 
 }
 
-void timedBlink(){
+void timedBlink(int interval){
   digitalWrite(LED_PIN, HIGH);   // turn the LED on (HIGH is the voltage level)
 
-  delay(500);                       // wait for a second
+  delay(delay_val);                       // wait for a second
 
   digitalWrite(LED_PIN, LOW);    // turn the LED off by making the voltage LOW
 
-  delay(500);                       // wait for a second
+  delay(delay_val);                       // wait for a second
+
+  delay_val = delay_val * interval;
 }
 
 /*void dimmer(int freq, int duty) {
@@ -94,6 +96,6 @@ void timedBlink(){
 
 void loop() {
 
-  timedBlink();
+  timedBlink(2);
 
 }
