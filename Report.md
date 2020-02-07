@@ -78,4 +78,4 @@ Procedure B, UART:
 (img/ThirdSS_Lab1.png)
 
 Procedure B, SPI:
-![Put path to your image here ->](img/placeholder.png)
+![Put path to your image here ->](img/ThirdSS_Lab1.png)
