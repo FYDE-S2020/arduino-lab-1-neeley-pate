@@ -69,13 +69,13 @@ Team Number:
 ## Screenshots
 
 Procedure A, step 1:
-(~/OneDrive/Documents/Freshman-Design/arduino-lab-1-neeley-pate/img/FirstSSLab1FYDE.png)
+(img/FirstSSLab1FYDE.png)
 
 Procedure A, step 4:
-(~/OneDrive/Documents/Freshman-Design/arduino-lab-1-neeley-pate/img/SecondSS_lab1_FYDE.png)
+(img/SecondSS_lab1_FYDE.png)
 
 Procedure B, UART:
-![Put path to your image here ->](img/placeholder.png)
+(img/ThirdSS_Lab1.png)
 
 Procedure B, SPI:
 ![Put path to your image here ->](img/placeholder.png)
