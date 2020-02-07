@@ -46,7 +46,7 @@
 
 #define LED_PIN 2
 int delay_val = 250;
-int freq = 200;
+int freq = 80;
 
 
 // the setup function runs once when you press reset or power the board

@@ -21,7 +21,9 @@ Team Number:
 
 4. When lowering the frequency in procedure A, step 4, what is going wrong? Brainstorm some solutions. Dimmers exist in the real world. What is their solution?
 
-    
+	the ratio between the on and off states becomes more inaccurate (less uniform, sometimes go smaller to larger to smaller)
+	ideas: operating at higher frequencies for more accuracy; having user-controlled switches that go down gradually and could stabilize at each level;
+		somehow having more control over the RMS voltage to ensure a more accurate estimate, and more accurate periods
 
 5. Why do you need to connect the logic analyzer ground to the ESP32 ground?
 
@@ -34,7 +36,7 @@ Team Number:
 
 7. Profile of UART: Sent X bytes in Y time 
 
-    
+    sent "Hello" (6 bytes) in .512 ms
 
 8. Profile of SPI: Sent X bytes in Y time
 
@@ -67,10 +69,10 @@ Team Number:
 ## Screenshots
 
 Procedure A, step 1:
-![Put path to your image here ->](img/placeholder.png)
+(~/OneDrive/Documents/Freshman-Design/arduino-lab-1-neeley-pate/img/FirstSSLab1FYDE.png)
 
 Procedure A, step 4:
-![Put path to your image here ->](img/placeholder.png)
+(~/OneDrive/Documents/Freshman-Design/arduino-lab-1-neeley-pate/img/SecondSS_lab1_FYDE.png)
 
 Procedure B, UART:
 ![Put path to your image here ->](img/placeholder.png)
