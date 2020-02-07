@@ -69,13 +69,13 @@ Team Number:
 ## Screenshots
 
 Procedure A, step 1:
-(arduino-lab-1-neeley-pate/img/FirstSSLab1FYDE.png)
+![Put path to your image here ->](img/FirstSSLab1FYDE.png)
 
 Procedure A, step 4:
-(img/SecondSS_lab1_FYDE.png)
+![Put path to your image here ->](img/SecondSS_lab1_FYDE.png)
 
 Procedure B, UART:
-(img/ThirdSS_Lab1.png)
+![Put path to your image here ->](img/ThirdSS_Lab1.png)
 
 Procedure B, SPI:
-![Put path to your image here ->](img/ThirdSS_Lab1.png)
+![Put path to your image here ->](img/placeholder.png)
