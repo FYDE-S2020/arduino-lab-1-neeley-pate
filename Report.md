@@ -69,7 +69,7 @@ Team Number:
 ## Screenshots
 
 Procedure A, step 1:
-(img/FirstSSLab1FYDE.png)
+(arduino-lab-1-neeley-pate/img/FirstSSLab1FYDE.png)
 
 Procedure A, step 4:
 (img/SecondSS_lab1_FYDE.png)
