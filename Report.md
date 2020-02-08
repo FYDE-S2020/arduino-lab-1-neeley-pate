@@ -40,7 +40,7 @@ Team Number:
 
 8. Profile of SPI: Sent X bytes in Y time
 
-    
+    sent "Hello" (6 bytes) in .147 ms
 
 9. Why is SPI so much faster than UART?
 
@@ -78,4 +78,4 @@ Procedure B, UART:
 ![Put path to your image here ->](img/ThirdSS_Lab1.png)
 
 Procedure B, SPI:
-![Put path to your image here ->](img/placeholder.png)
+![Put path to your image here ->](img/fourthSS_lab1fyde.png)
