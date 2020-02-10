@@ -6,7 +6,7 @@
  * At the lowest level, you are writing bytes to special SPI registers. Arduino abstracts this away.
  * SPI is a synchronous communcation protocol, meaning it requires a clock signal. 
  * Clock speeds are determined by your parts - check their data sheets. 
- * There are four pins used for SPI: 
+ * There are fou  r pins used for SPI: 
  * MOSI: Master out Slave in. We will be outputting the message on this line.
  * MISO: Master in Slave Out. Since we don't have peripherals, this is unconnected. You may ignore it.
  * SCLK: Clock signal. We will use 1MHz. You can try experimenting with other speeds and profiling them.
