@@ -21,7 +21,7 @@ Team Number:
 
 4. When lowering the frequency in procedure A, step 4, what is going wrong? Brainstorm some solutions. Dimmers exist in the real world. What is their solution?
 
-	the ratio between the on and off states becomes more inaccurate (less uniform, sometimes go smaller to larger to smaller)
+	the ratio between the on and off states becomes more inaccurate (less uniform, sometimes go smaller to larger to smaller); also just looks like flickering instead of dimming
 	ideas: operating at higher frequencies for more accuracy; having user-controlled switches that go down gradually and could stabilize at each level;
 		somehow having more control over the RMS voltage to ensure a more accurate estimate, and more accurate periods
 
@@ -31,7 +31,7 @@ Team Number:
 
 6. What is the difference between synchronous and asynchronous communication?
 
-    synchronous: run at the same pace
+    synchronous: run at the same pace (clock based)
 	asynchronous: run at different speeds
 
 7. Profile of UART: Sent X bytes in Y time 
